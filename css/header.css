@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Graphik Meetup", -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    background: #FFF7ED;
+}
+a {
+    text-decoration: none;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+header .container .logo img{
+    width: 200px;
+    padding: 0 20px;
+}
+header .container .menu {
+    display: flex;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+header .container .menu a{
+    color: #000;
+    margin-left: 13px;
+
+}
+header .container .menu a:hover{
+    color: purple;
+    transition: 600ms all ease;
+}
+

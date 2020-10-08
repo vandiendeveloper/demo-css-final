@@ -1,0 +1,40 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+main .container {
+    flex-basis: 1000px;
+}
+main .container .banner {
+    display: flex;
+    justify-content: space-between;
+}
+main .container .banner .banner-content {
+    padding: 50px 0;
+    flex-basis: 500px;
+}
+main .container .banner .banner-content .banner-content__title {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 55px;
+}
+main .container .banner .banner-content .banner-content__btn-join {
+    margin-top: 50px;
+}
+main .container .banner .banner-content .banner-content__btn-join a{
+    padding: 20px 30px;
+    background: #F65858;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    transition: 600ms background;
+}
+main .container .banner .banner-content .banner-content__btn-join a:hover {
+    background: #ff2828;
+
+}
+main .container .banner .banner-image {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
